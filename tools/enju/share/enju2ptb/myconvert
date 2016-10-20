@@ -1,0 +1,5 @@
+#!/bin/sh
+
+BASE_DIR=`dirname $0`
+COMMAND="$BASE_DIR/convert -genia <$BASE_DIR/in_xml> $BASE_DIR/out_ptb"
+exec sh -c "$COMMAND"
